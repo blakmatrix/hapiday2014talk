@@ -220,7 +220,7 @@ You can register server methods in two ways:
 
 ### When/Why server methods should not be used:
 * If you only perform an operation once (slight overhead to call the method)
-* Question: At the moment server methods cannot cache buffers or streams, can hapi cache buffers/streams utilizing `server.inject`?
+* It doesn't fit your use case
 
 
 
